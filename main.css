@@ -88,6 +88,7 @@ img {
 
 p {
     line-height: 1.6;
+    margin: 1rem 0;
 }
 
 /* --------COMPONENTS-------- */
@@ -176,13 +177,28 @@ p {
     }
 }
 
+.habilities p {
+    display: flex;
+    justify-content: space-between;
+}
+
+progress {
+    width: 100%;
+}
+
+.my-img {
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+
 /* --------UTILITIES------ */
 .box-shadow {
     box-shadow: .25rem .25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .btn {
-    display: block;
+    /* display: block; */
     padding: 1rem;
     background-color: var(--first-color);
     border-radius: 1.5rem;
@@ -198,6 +214,33 @@ p {
 
 .display-none {
     display: none;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.section {
+    padding: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .txt-right {
+        text-align: right;
+    }
+
+    .txt-left {
+        text-align: left;
+    }
+
+    .section-desktop {
+        padding-top: var(--header-height);
+        /* background-color: rebeccapurple; */
+    }
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
 }
 
 /* --------SITE STYLES------ */
@@ -225,7 +268,25 @@ p {
     font-size: 2rem;
 }
 
+.cv-btn {
+    padding: 4rem 0;
+}
+
+.slogan {
+    padding: 2rem 0;
+}
+
+.about article > p {
+    text-align: justify;
+}
+
 @media screen and (min-width: 1024px) {
+    .about {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: space-between;
+        align-items: center;
+    }
     .header {
         position: sticky;
         top: 0;
