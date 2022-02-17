@@ -441,6 +441,10 @@ progress {
     .services .section-title {
         grid-column: span 3;
     }
+
+    .footer {
+        margin: 0;
+    }
 }
 
 .service-card {
@@ -490,6 +494,14 @@ progress {
 .social-media svg {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--third-color);
+    color: var(--white-color);
+    padding: 1rem 0;
+    margin-bottom: var(--header-height);
 }
 
 
