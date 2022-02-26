@@ -470,6 +470,17 @@ progress {
     text-align: justify;
 }
 
+@media screen and (min-width: 480px) {
+    .margin-bottom {
+        text-align: center;
+    }
+
+    .my-img {
+        max-width: 380px;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .contact-cards {
         display: grid;
@@ -514,6 +525,11 @@ progress {
 
     .footer {
         margin: 0;
+    }
+
+    .my-img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
