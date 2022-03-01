@@ -141,7 +141,7 @@ p {
     background-color: var(--second-color);
     border-left: 2px solid white;
     left: 0;
-    animation: typing 2s steps(10) infinite;
+    animation: typing 2s steps(12) infinite;
 }
 
 @keyframes typing {
